@@ -1,0 +1,82 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  height: 130vh;
+}
+.dark-mode {
+  color: #ffffff;
+  background-image: linear-gradient(to right, #8a9099, #222426);
+}
+.logo {
+  height: 120px;
+  width: 150px;
+  background-color: transparent;
+}
+
+@media (max-width: 575px) {
+  .logo {
+    height: 80px;
+    width: 100px;
+    background-color: transparent;
+  }
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.input {
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 10px;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.error {
+  font-family: 'Roboto';
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.mode-button {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.search-button {
+  font-size: 16px;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.data {
+  margin-top: 20px;
+  padding: 10px;
+}
